@@ -6,10 +6,10 @@ from testerr import argerr
 INT_MIN = -2147483648
 INT_MAX = 2147483647
 
-NB_ARG = [10, 20, 100, 500]
+NB_ARG = []
 
-# nb = input("Enter how many numbers you want to test (ex : 10 25 500) : ")
-# NB_ARG = nb.split()
+nb = input("Enter how many numbers you want to test (ex : 10 25 500) : ")
+NB_ARG = nb.split()
 
 nb_test = int(input("How many test per size : "))
 while nb_test < 1:
